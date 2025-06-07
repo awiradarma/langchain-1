@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "langchain-1"
+version = "0.1.0"
+description = ""
+authors = ["Andre Wiradarma <awiradarma@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.25"
+langchain-openai = "^0.3.19"
+langchain-text-splitters = "^0.3.8"
+jupyter = "^1.1.1"
+langchain-ollama = "^0.3.3"
+langchain-core = "^0.3.63"
+beautifulsoup4 = "^4.13.4"
+pypdf = "^5.6.0"
+langchain-postgres = "^0.0.14"
+langchain-community = "^0.3.21"
+lark = "^1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
